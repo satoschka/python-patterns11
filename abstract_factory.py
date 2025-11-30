@@ -20,7 +20,7 @@ class PetShop:
 
         pet = self.pet_factory.get_pet()
         print("This is a lovely {}".format(pet))
-        print("It says {}".format(pet.speak()))
+        print("It says {}".format(pet.speak)))
         print("It eats {}".format(self.pet_factory.get_food()))
 
 
